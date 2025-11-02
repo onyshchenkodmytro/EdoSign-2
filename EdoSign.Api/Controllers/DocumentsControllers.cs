@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EdoSign.Api.Services;
+using EdoSign.Signing;
 using Microsoft.AspNetCore.Http;
 using System.Net.Mime;
 using System.ComponentModel.Design;

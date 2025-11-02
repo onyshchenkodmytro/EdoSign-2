@@ -1,4 +1,4 @@
-using EdoSign.Api.Services;
+using EdoSign.Signing;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,11 +15,10 @@ builder.Services.AddScoped<ISigner, RsaSigner>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 

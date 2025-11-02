@@ -1,4 +1,4 @@
-﻿namespace EdoSign.Api.Services
+﻿namespace EdoSign.Signing
 {
     public interface ISigner
     {

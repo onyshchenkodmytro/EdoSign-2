@@ -2,6 +2,7 @@ using System.Text;
 using EdoSign.Api.Services;
 using Microsoft.Extensions.Configuration;
 using Xunit;
+using EdoSign.Signing;
 
 namespace EdoSign.UnitTests
 {
@@ -10,7 +11,7 @@ namespace EdoSign.UnitTests
         private ISigner CreateSigner()
         {
             var config = new ConfigurationBuilder().AddInMemoryCollection().Build();
-            return new RsaSigner(config);
+            return new RsaSigner();
         }
 
         [Fact]

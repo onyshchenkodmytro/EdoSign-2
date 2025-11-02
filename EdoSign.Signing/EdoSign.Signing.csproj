@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>Onyshchenko Dmytro</Authors>
+		<Company>EdoSign</Company>
+		<PackageId>EdoSign.Signing</PackageId>
+		<Description>RSA signing/verification for EdoSign</Description>
+		<RepositoryUrl>https://github.com/…/EdoSign</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+</Project>
+
